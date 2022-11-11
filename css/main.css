@@ -1,0 +1,41 @@
+          /* TASK ONE */
+          div[class="main red"] {
+            color: red;
+        }
+        /* TASK ONE */
+        /* TASK TWO */
+        .parent:first-child> :last-child{
+            color: red;
+        }
+        /* TASK TWO */
+        /* TASK THREE */
+        .parent> div:only-of-type{
+            color: red;
+        }
+        /* TASK THREE */
+        /* TASK FOUR */
+        div[title]:not(.parent div, .no-need){
+            color: red;
+        }
+        /* TASK FOUR */
+        /* TASK FIVE */
+        div:nth-child(2)>p+div{
+            color:red;
+        }
+        /* TASK FIVE */
+        /* TASK SIX */
+        div div:nth-last-of-type(2):not(.no-need div) {
+            color: red;
+        }
+        /* TASK SIX */
+        /* TASK SEVEN */
+        div:nth-child(1)>h3:nth-last-of-type(1)+div{
+            color: red;
+        }
+        /* TASK SEVEN */
+        /* TASK EIGHT */
+        div>div:nth-child(n+2):not(div:nth-last-of-type(1)), p{
+        color: red;
+       } 
+
+        /* TASK EIGHT */
